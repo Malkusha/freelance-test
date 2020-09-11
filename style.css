@@ -224,7 +224,7 @@ label {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1023px) {
   body {
     width: 375px;
     height: 667px;
