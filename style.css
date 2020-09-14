@@ -90,6 +90,7 @@ label {
   content: "" ;
   display: block;
   position: absolute;
+  overflow: hidden;
   left: 0;
   bottom: 0;
   width: 315px;
@@ -102,17 +103,17 @@ label {
   content: "" ;
   display: block;
   position: absolute;
+  overflow: hidden;
   right: 0;
   bottom: 0;
   width: 371px;
   height: 768px;
   background: url(pics/group_right.png) no-repeat;
-  z-index: 10;
+  z-index: 1;
 }
 
 .info__title {
   margin: 0 225px;
-  position: relative;
 }
 
 .info__buttons {
@@ -124,6 +125,11 @@ label {
 
 .info__app {
   margin: 0 12px;
+}
+
+.info__img {
+  display: block;
+  margin: 0 auto;
 }
 
 .info__img_big {
@@ -208,7 +214,9 @@ label {
   }
 
   .info__img_big {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+    vertical-align:bottom;
   }
 }
 
@@ -320,7 +328,9 @@ label {
   }
 
   .info__img_mobile {
-    display: inline-block;
+    display: block;
     width: 325px;
+    margin: 0 auto;
+    vertical-align:bottom;
   }
 }
