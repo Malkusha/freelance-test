@@ -19,6 +19,9 @@ body {
   font-weight: bold;
   font-size: 32px;
   line-height: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 input {
@@ -85,10 +88,11 @@ label {
 
 .info {
   position: relative;
-  height: 100vh;
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .info::before {
@@ -141,10 +145,12 @@ label {
 
 .info__img_big {
   display: none;
+  align-self: flex-end;
 }
 
 .info__img_mobile {
   display: none;
+  align-self: flex-end;
 }
 
 @media (min-width: 1366px) {
