@@ -1,2 +1,2 @@
-# freelance-test
+# Freelance test
 my first freelance case
